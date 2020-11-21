@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   src = 
     if stdenv.hostPlatform.system == "x86_64-linux" then
         fetchurl {
-            url = https://d2t3ff60b2tol4.cloudfront.net/builds/insync-headless_3.0.4.10602-buster_amd64.deb;
+            url = "https://d2t3ff60b2tol4.cloudfront.net/builds/insync-headless_3.0.4.10602-buster_amd64.deb";
             sha256 = "0ja6jzd2q3na6z22jhh5r1md12imr3y85mbigbr52xav4lw2y18j";
         }
     else

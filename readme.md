@@ -1,6 +1,6 @@
 # nix-insync-headless
 
-This will be a nix-derivation that packages insync-headless.
+A nix-derivation that packages insync-headless.
 
 ## installation
 

@@ -8,8 +8,8 @@ let
     src = 
       if stdenv.hostPlatform.system == "x86_64-linux" then
           fetchurl {
-              url = "https://d2t3ff60b2tol4.cloudfront.net/builds/insync-headless_3.0.4.10602-buster_amd64.deb";
-              sha256 = "0ja6jzd2q3na6z22jhh5r1md12imr3y85mbigbr52xav4lw2y18j";
+              url = "https://cdn.insynchq.com/builds/linux/insync_3.8.6.50504-mantic_amd64.deb";
+              sha256 = "13yjqnwfa4vs3ks6i1jdc3p16dj1jw553ra482hn8kfck169zx21";
           }
       else
         throw "${pname}-${version} is not supported on ${stdenv.hostPlatform.system}";
